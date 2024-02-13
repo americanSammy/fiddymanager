@@ -10,7 +10,7 @@ body {
 }
 
 .sidebar {
-  width: 150px;
+  width: 190px;
   background-color: #182b3b;
   padding: 20px;
   border-radius: 10px;
@@ -81,7 +81,6 @@ h1 {
 .fa-linkedin-square {
   color: #39b7ff;
 }
-
 
 .logout-button {
   margin-left: 10px; /* Add margin to create space between the email and the button */
