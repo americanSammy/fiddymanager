@@ -19,7 +19,7 @@ body {
 .main-content {
   flex-grow: 1;
   padding: 20px;
-  margin-top: -45px; /* Adjust the negative margin to move it higher up */
+  margin-top: -45px;
 }
 
 h1 {
@@ -57,7 +57,7 @@ h1 {
 }
 
 .input-container input {
-  flex: 1; /* Fill remaining space */
+  flex: 1;
 }
 
 .button-group {
@@ -85,7 +85,6 @@ h1 {
 }
 
 .button-group button {
-  /* background-color: background-color: #39b7ff;  Removed to test button options*/
   color: #fff;
   margin-right: 10px;
 }
@@ -121,8 +120,8 @@ h1 {
 
 .password-list-header {
   margin-bottom: 0px;
-  border-radius: 20px; /* Round the edges of the header */
-  overflow: hidden; /* Ensure border-radius takes effect */
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .password-list-header h2 {
@@ -131,7 +130,7 @@ h1 {
 }
 
 .password-list {
-  width: 100%; /* Scale the table to fill the container */
+  width: 100%;
 }
 
 #data-table {
