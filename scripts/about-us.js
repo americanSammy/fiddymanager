@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 let timeout;
 let interval; // Global variable to keep track of the interval ID
-const inactivityDuration = 60 * 1000;
+const inactivityDuration = 10 * 1000;
 const timerDisplay = document.querySelector("#time"); // Assuming this is your timer display element
 function showTimer() {
   if (timerDisplay) timerDisplay.style.display = "block"; // Show the timer display

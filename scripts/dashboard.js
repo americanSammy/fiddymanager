@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", loadData);
 
 let timeout;
 let interval;
-const inactivityDuration = 60 * 1000; // 60 second timeout
+const inactivityDuration = 5 * 1000; // 5 second timeout
 const timerDisplay = document.querySelector("#time"); //
 function showTimer() {
   if (timerDisplay) timerDisplay.style.display = "block";
